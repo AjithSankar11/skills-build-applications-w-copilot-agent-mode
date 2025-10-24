@@ -1,0 +1,87 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(131,56,236,0.08);
+}
+.card-title {
+  color: #3a86ff;
+}
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+  margin: 0 4px;
+}
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #ffd166 100%);
+  color: #22223b;
+}
+.btn-info {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #22223b;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #fff;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #ff006e 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+h2, .card-title, .table-dark th {
+  color: #3a86ff !important;
+}
+
+.table {
+  background: #f8fafc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%) !important;
+  color: #fff !important;
+}
+.table-hover tbody tr:hover {
+  background: #e0e7ff;
+}
+
+.App-link {
+  color: #ffbe0b;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
